@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+# YOLO weights are downloaded by ultralytics on first use (yolo11x.pt exceeds GitHub's 100 MB limit)
+pilot/models/*.pt
+# Runtime outputs: clips, logs, task state
+pilot/work/
