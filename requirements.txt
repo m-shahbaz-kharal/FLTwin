@@ -1,0 +1,10 @@
+flask>=3.1
+numpy>=2.5
+scipy>=1.18
+opencv-python-headless>=5.0
+requests>=2.34
+imageio-ffmpeg
+matplotlib>=3.11
+# cu128 build; it has no kernels for V100s, see pilot/README.md "GPU"
+torch>=2.11
+ultralytics>=8.4
